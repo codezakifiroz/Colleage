@@ -10,7 +10,37 @@
     <div id="root">
       <nav>
         <div id="logo">CodezakiFiroz</div>
-        <div id="nav"></div>
+        <div id="nav">
+          <div id="nav-option">
+            <button class="button" id="linkedin" onclick="social(id)">
+              Home
+            </button>
+            <button class="button" id="twitter" onclick="social(id)">
+              Porject
+            </button>
+            <button class="button" id="github" onclick="social(id)">
+              Skill
+            </button>
+            <button class="button" id="instagram" onclick="social(id)">
+              Blog
+            </button>
+          </div>
+          <h2>Social</h2>
+          <div id="social">
+            <button class="button" id="linkedin" onclick="social(id)">
+              Linkedin
+            </button>
+            <button class="button" id="twitter" onclick="social(id)">
+              Twitter
+            </button>
+            <button class="button" id="github" onclick="social(id)">
+              GitHub
+            </button>
+            <button class="button" id="instagram" onclick="social(id)">
+              Instagram
+            </button>
+          </div>
+        </div>
       </nav>
       <main>
         <div id="header">
@@ -18,11 +48,20 @@
           <button class="header-button">Resume</button>
         </div>
         <div id="profile">
-          <div id="profile-pic"></div>
-          <button>Follow me on LinkedIn</button>
+          <div id="profile-tag">
+            <div id="profile-pic"></div>
+            <div id="username">
+              <h2>Firoz Khan</h2>
+              <p>@CodezakiFiroz</p>
+            </div>
+          </div>
+          <button value="linkedin" onclick="social(value)">
+            Follow me on LinkedIn
+          </button>
         </div>
         <fieldset id="lang"></fieldset>
       </main>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
