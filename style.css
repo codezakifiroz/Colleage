@@ -160,7 +160,7 @@ main{
 .project{
     width: 250px;
     height: 250px;
-    /* background-color: #38c87d; */
+    background-color: #38c87d;
     border-radius: 10px;
 }
 #project1-img{
@@ -181,4 +181,8 @@ main{
     justify-content: center;
     line-height: 21px;
     padding-left: 8px;
+}
+#project2-img{
+    background-image: url(amazon-clone.webp);
+    width: 100%;
 }
