@@ -10,6 +10,7 @@
     height: 100%;
     background-color: #14131a;
     display: flex;
+    position: fixed;
 }
 nav{
     width: 18%;
@@ -38,6 +39,8 @@ nav{
 main{
     width: 82%;
     height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
 }
 #header{
     background-color: #14131a;
@@ -182,7 +185,71 @@ main{
     line-height: 21px;
     padding-left: 8px;
 }
+
 #project2-img{
-    background-image: url(amazon-clone.webp);
+    background-image: url(spotify-clone.webp);
+    background-position: center;
+    background-size: cover;
     width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+#project2-dis{
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 21px;
+    padding-left: 8px;
+}
+#project3-img{
+    background-image: url(dalle-clone.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+#project3-dis{
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 21px;
+    padding-left: 8px;
+}
+#project4-img{
+    background-image: url(amazon-clone.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+#project4-dis{
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 21px;
+    padding-left: 8px;
+}
+.project-p{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#skills{
+    width: 100%;
+    height: 50%;
+    background-color: #38c87d;
 }
