@@ -315,7 +315,6 @@ main{
     display: inline-block;
     width: 30%;
     height: 80%;
-    background-color: aqua;
     border: 3px;
     scroll-snap-align: center;
 }
