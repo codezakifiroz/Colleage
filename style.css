@@ -309,7 +309,6 @@ main{
    
 }
 .blog-post{
-    background-color: red;
     height: 400px;
     width: 300px;
     display: inline-flex;
